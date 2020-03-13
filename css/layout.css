@@ -1,0 +1,36 @@
+@charset:"utf-8";
+/* seletor{
+ *	  propriedade: valor;
+ *	  propriedade: valor;
+ * }
+ * seletor{propriedade:valor;propriedade:valor;}
+ */
+
+/* formatações gerais */
+body{
+	font-family: "Open Sans", sans-serif;
+}
+/* formatação da section top */
+section#top{
+	background-color: #2a7ae4;
+	height: 31em; /* em relação ao elemento pai */
+    padding-bottom: 32px;
+}
+section#top nav{
+    background-color: rgba(13,71,161, 0.6);
+    padding: 1em;
+    height: 6.2em;
+}
+
+/* classes */
+
+.logo{
+    width: 60%; height: 60%;
+}
+
+.bg-top{
+	background-image: url("../imagens/bg-top.svg");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
