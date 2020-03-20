@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>Cursos</title>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800&display=swap" rel="stylesheet"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
-	<link rel="stylesheet" href="css/layout.css"/>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Cursos</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <link rel="stylesheet" href="css/layout.css"/>
 </head>
     <!-- Colocando um comentário para o repositório do github. -->
 <body> 
-	<section id="top" class="bg-top">
+    <section id="top" class="bg-top">
 		<header>
 			<div id="navbar" class="navbar-fixed nav-wrapper">
 				<nav class = "row">
 					<div class="col s8 m3 offset-m1">
-						<a href="#"><img class="logo" src="imagens/logo-cursos.svg" alt="Cursos"</a>
+						<a href="#"><img class="logo" src="imagens/logo-cursos.svg" alt="Cursos"></a>
 					</div> <!--#col s8 m3-->					
                     <div class="col s3 m7 offset-s1">
 						<a href="#" class="sidenav-trigger" data-target="mobile-menu"><i class="material-icons">menu</i></a>
@@ -45,7 +45,87 @@
             </div> <!-- /#row -->
         </div><!-- /#info -->
 	</section><!-- /#top -->
-
+    <section id="formacoes">
+        <div class="container">
+            <header><h3>Formações</h3></header>
+            <p>Somos a maior plataforma brasileira. Cursos de tecnologia com conteúdo 100% em português.</p>
+            <div class="row">
+    <!-- ================================== CARD 1 - MOBILE ======================================== -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-light waves-block">
+                            <img class="activator" src="formacoes/mobile-img-formacao.png" alt="Formação Mobile"/>
+                        </div><!--card-image-->
+                        <div class="card-content">
+                            <header><h6 class="activator card-title">Mobile</h6></header>
+                            <p>iOS e Swift, Android e Kotlin, Ionic, React Native, Jogos.</p>
+                        </div><!--card-content-->
+                        
+                        <div class="card-reveal">
+                            <header><h6 class="card-title">Mobile<i class="material-icons right">close</i></h6></header>
+                            <p>Crie aplicativos móveis para as principais plataformas, smartphones e tablets. Aprenda Android e iOS nativo ou frameworks multiplataforma como Cordova, React Native e Xamarim. Desenvolva também jogos mobile com Unity.</p>
+                            <div class="card-action">
+                                <a href="#">Cursar</a>
+                            </div><!--card-action-->
+                        </div><!--card-reveal-->
+                      
+                        <div class="card-action">
+                            <a href="#">Cursar</a>
+                        </div><!--card-action-->
+                    </div><!--.card-->
+                </div><!--/col-->
+    <!-- ================================== CARD 2 - PROGRAMAÇÃO =============================== -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-light waves-block">
+                            <img class="activator" src="formacoes/programacao-img-formacao.png" alt="Formação Mobile"/>
+                        </div><!--card-image-->
+                        <div class="card-content">
+                            <header><h6 class="activator card-title">Programação</h6></header>
+                            <p>Lógica, Python, PHP, Java, .NET, Ruby & Rails, C, Computação, Jogos.</p>
+                        </div><!--card-content-->
+                        
+                        <div class="card-reveal">
+                            <header><h6 class="card-title">Programação<i class="material-icons right">close</i></h6></header>
+                            <p>Programe nas principais linguagens e plataformas. Explore plataformas como Java e .NET a fundo, além de muito conteúdo de Ruby, PHP, Python. Iniciantes são bem vindos nos cursos de lógica e JavaScript.</p>
+                            <div class="card-action">
+                                <a href="#">Cursar</a>
+                            </div><!--card-action-->
+                        </div><!--card-reveal-->
+                      
+                        <div class="card-action">
+                            <a href="#">Cursar</a>
+                        </div><!--card-action-->
+                    </div><!--.card-->
+                </div><!--/col-->
+    <!-- ================================== CARD 3 - FRONT-END ====================================== -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-light waves-block">
+                            <img class="activator" src="formacoes/front-end-img-formacao.png" alt="Formação Mobile"/>
+                        </div><!--card-image-->
+                        <div class="card-content">
+                            <header><h6 class="activator card-title">Front-End</h6></header>
+                            <p>HTML, CSS, JavaScript, Angular, React, jQuery.</p>
+                        </div><!--card-content-->
+                        
+                        <div class="card-reveal">
+                            <header><h6 class="card-title">Front-End<i class="material-icons right">close</i></h6></header>
+                            <p>Desenvolva sites e webapps com HTML, CSS e JavaScript. Aprenda as boas práticas e últimas versões como ES6. Estude ferramentas e frameworks importantes como React, Angular, Webpack, jQuery e mais.</p>
+                            <div class="card-action">
+                                <a href="#">Cursar</a>
+                            </div><!--card-action-->
+                        </div><!--card-reveal-->
+                      
+                        <div class="card-action">
+                            <a href="#">Cursar</a>
+                        </div><!--card-action-->
+                    </div><!--.card-->
+                </div><!--/col-->
+            </div><!--/row-->
+        </div>
+    </section> <!-- /#formacoes -->
+    <section id="comoFunciona"></section>
 	<!-- Interoperabilidade, as linhas abaixo não estão no <head> para caso não sejam carregados, não interferir na exposição do <body> -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

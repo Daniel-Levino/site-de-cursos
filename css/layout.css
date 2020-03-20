@@ -21,6 +21,17 @@ section#top nav{
     padding: 1em;
     height: 6.2em;
 }
+div#info{
+    color: #fff;
+    margin-top: 3em;
+}
+div#info h2{
+    font-weight: 800;
+}
+div#info p{
+    font-size: 23px;
+    font-weight: 300;
+}
 
 /* classes */
 
