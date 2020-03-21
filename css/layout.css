@@ -8,12 +8,13 @@
 
 /* formatações gerais */
 body{
-	font-family: "Open Sans", sans-serif;
+    /*background-color: #ff9;*/
+    font-family: "Open Sans", sans-serif;
 }
 /* formatação da section top */
 section#top{
-	background-color: #2a7ae4;
-	height: 31em; /* em relação ao elemento pai */
+    background-color: #2a7ae4;
+    height: 31em; /* em relação ao elemento pai */
     padding-bottom: 32px;
 }
 section#top nav{
@@ -33,6 +34,30 @@ div#info p{
     font-weight: 300;
 }
 
+/*  formatação da section formacoes  */
+section#formacoes{
+    background-color: #fff;
+}
+section#formacoes p{
+    font-size: 19px;
+    color: #757575;
+}
+
+h3, h4{
+    color: #4a535a;
+    text-transform: uppercase;
+    border-left: 2px solid #2a7ae4;
+    padding-left: 8px;
+}
+h3{
+    font-size: 2.3em;
+    font-weight: 300;
+}
+h4{
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
 /* classes */
 
 .logo{
@@ -44,4 +69,21 @@ div#info p{
 	background-repeat: no-repeat;
 	background-position: bottom right;
 }
-
+.card .card-content{ /* padronizar o tamanho dos cards. */
+    height: 10em;
+}
+.card h6.card-title{
+    color: #0277bd;
+}
+.card p{
+    font-size: 14px!important;
+}
+.card .card-action a{
+    color: #26a69a!important;
+}
+.card .card-action a:hover{
+    color: #004d40!important;
+}
+.card .card-reveal{
+    background-color: #fafafa;
+}
