@@ -1,63 +1,63 @@
 @charset:"utf-8";
-/* seletor{
- *	  propriedade: valor;
- *	  propriedade: valor;
- * }
- * seletor{propriedade:valor;propriedade:valor;}
- */
+	/* seletor{
+	*	  propriedade: valor;
+	*	  propriedade: valor;
+	* }
+	* seletor{propriedade:valor;propriedade:valor;}
+	*/
 
-/* formatações gerais */
+	/* formatações gerais */
 body{
-    /*background-color: #ff9;*/
-    font-family: "Open Sans", sans-serif;
+	/*background-color: #ff9;*/
+	font-family: "Open Sans", sans-serif;
 }
-/* formatação da section top */
+	/* formatação da section top */
 section#top{
-    background-color: #2a7ae4;
-    height: 30em; /* em relação ao elemento pai */
-    padding-bottom: 30px;
+	background-color: #2a7ae4;
+	height: 30em; /* em relação ao elemento pai */
+	padding-bottom: 30px;
 }
 section#top nav{
-    background-color: rgba(13,71,161, 0.6);
-    padding: 1em;
-    height: 5.1em;
+	background-color: rgba(13,71,161, 0.6);
+	padding: 1em;
+	height: 5.1em;
 }
 div#info{
-    color: #fff;
-    margin-top: 3em;
+	color: #fff;
+	margin-top: 3em;
 }
 div#info h2{
-    font-weight: 800;
+	font-weight: 800;
 }
 div#info p{
-    font-size: 23px;
-    font-weight: 300;
+	font-size: 23px;
+	font-weight: 300;
 }
 
-/*  formatação da section formacoes  */
+	/*  formatação da section formacoes  */
 section#formacoes{
-    background-color: #fff;
+	background-color: #fff;
 }
 section#formacoes p, section#comoFunciona p{
-    font-size: 19px;
-    color: #757575;
+	font-size: 19px;
+	color: #757575;
 }
 
 h3, h4{
-    color: #4a535a;
-    text-transform: uppercase;
-    border-left: 2px solid #2a7ae4;
-    padding-left: 8px;
+	color: #4a535a;
+	text-transform: uppercase;
+	border-left: 2px solid #2a7ae4;
+	padding-left: 8px;
 }
 h3{
-    font-size: 2.3em;
-    font-weight: 300;
+	font-size: 2.3em;
+	font-weight: 300;
 }
 h4{
-    font-size: 1.3em;
-    font-weight: 800;
+	font-size: 1.3em;
+	font-weight: 800;
 }
-/*  formatação da section comoFunciona  */
+	/*  formatação da section comoFunciona  */
 
 section#comoFunciona{
 	background-color: #e8eaf6;
@@ -65,10 +65,10 @@ section#comoFunciona{
 	padding-bottom: 1em;
 }
 
-/* classes */
+	/* classes */
 
 .logo{
-    width: 60%; height: 60%;
+	width: 60%; height: 60%;
 }
 
 .bg-top{
@@ -77,20 +77,20 @@ section#comoFunciona{
 	background-position: bottom right;
 }
 .card .card-content{ /* padronizar o tamanho dos cards. */
-    height: 10em;
+	height: 10em;
 }
 .card h6.card-title{
-    color: #0277bd;
+	color: #0277bd;
 }
 .card p, section#comoFunciona .row p{
-    font-size: 14px!important;
+	font-size: 14px!important;
 }
 .card .card-action a{
-    color: #26a69a!important;
+	color: #26a69a!important;
 }
 .card .card-action a:hover{
-    color: #004d40!important;
+	color: #004d40!important;
 }
 .card .card-reveal{
-    background-color: #fafafa;
+	background-color: #fafafa;
 }
