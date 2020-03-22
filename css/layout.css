@@ -38,7 +38,7 @@ div#info p{
 section#formacoes{
     background-color: #fff;
 }
-section#formacoes p, #funcioana p{
+section#formacoes p, section#comoFunciona p{
     font-size: 19px;
     color: #757575;
 }
