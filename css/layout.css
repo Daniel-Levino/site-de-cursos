@@ -14,13 +14,13 @@ body{
 /* formatação da section top */
 section#top{
     background-color: #2a7ae4;
-    height: 31em; /* em relação ao elemento pai */
-    padding-bottom: 32px;
+    height: 30em; /* em relação ao elemento pai */
+    padding-bottom: 30px;
 }
 section#top nav{
     background-color: rgba(13,71,161, 0.6);
     padding: 1em;
-    height: 6.2em;
+    height: 5.1em;
 }
 div#info{
     color: #fff;
@@ -38,7 +38,7 @@ div#info p{
 section#formacoes{
     background-color: #fff;
 }
-section#formacoes p{
+section#formacoes p, #funcioana p{
     font-size: 19px;
     color: #757575;
 }
@@ -56,6 +56,13 @@ h3{
 h4{
     font-size: 1.3em;
     font-weight: 800;
+}
+/*  formatação da section comoFunciona  */
+
+section#comoFunciona{
+	background-color: #e8eaf6;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 /* classes */
@@ -75,7 +82,7 @@ h4{
 .card h6.card-title{
     color: #0277bd;
 }
-.card p{
+.card p, section#comoFunciona .row p{
     font-size: 14px!important;
 }
 .card .card-action a{
