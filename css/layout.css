@@ -18,10 +18,14 @@ section#top{
 	padding-bottom: 30px;
 }
 section#top nav{
-	background-color: rgba(13,71,161, 0.6);
+	background-color: rgba(13,71,161, 0.1);
 	padding: 1em;
 	height: 5.1em;
 }
+section#top nav:hover{
+	background-color: rgba(13,71,161, 0.8);
+}
+
 div#info{
 	color: #fff;
 	margin-top: 3em;
